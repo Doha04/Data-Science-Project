@@ -15,7 +15,7 @@
 |Fjob	|Feature	|Categorical	|father's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other')	|	no|
 |reason	|Feature|	Categorical	|	reason to choose this school (nominal: close to 'home', school 'reputation', 'course' preference or 'other')		|no|
 |guardian	|Feature	|Categorical	|	student's guardian (nominal: 'mother', 'father' or 'other')	|	no|
-|traveltime	Feature|	Integer	|	home to school travel time (numeric: 1 - <15 min., 2 - 15 to 30 min., 3 - 30 min. to 1 hour, or 4 - >1 hour)		|no|
+|traveltime|	Feature|	Integer	|	home to school travel time (numeric: 1 - <15 min., 2 - 15 to 30 min., 3 - 30 min. to 1 hour, or 4 - >1 hour)		|no|
 |studytime|	Feature	|Integer	|	weekly study time (numeric: 1 - <2 hours, 2 - 2 to 5 hours, 3 - 5 to 10 hours, or 4 - >10 hours)|		no|
 |failures	|Feature|	Integer	|	number of past class failures (numeric: n if 1<=n<3, else 4)		|no|
 |schoolsup	|Feature|	Binary	|	extra educational support (binary: yes or no)		|no|
