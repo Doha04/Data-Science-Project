@@ -14,17 +14,25 @@
 |Mjob	|Feature	|Categorical	|mother's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other')	|	no|
 |Fjob	|Feature	|Categorical	|father's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other')	|	no|
 |reason	|Feature|	Categorical	|	reason to choose this school (nominal: close to 'home', school 'reputation', 'course' preference or 'other')		|no|
-guardian	Feature	Categorical		student's guardian (nominal: 'mother', 'father' or 'other')		no
-traveltime	Feature	Integer		home to school travel time (numeric: 1 - <15 min., 2 - 15 to 30 min., 3 - 30 min. to 1 hour, or 4 - >1 hour)		no
-studytime	Feature	Integer		weekly study time (numeric: 1 - <2 hours, 2 - 2 to 5 hours, 3 - 5 to 10 hours, or 4 - >10 hours)		no
-failures	Feature	Integer		number of past class failures (numeric: n if 1<=n<3, else 4)		no
-schoolsup	Feature	Binary		extra educational support (binary: yes or no)		no
-famsup	Feature	Binary		family educational support (binary: yes or no)		no
-paid	Feature	Binary		extra paid classes within the course subject (Math or Portuguese) (binary: yes or no)		no
-activities	Feature	Binary		extra-curricular activities (binary: yes or no)		no
-nursery	Feature	Binary		attended nursery school (binary: yes or no)		no
-higher	Feature	Binary		wants to take higher education (binary: yes or no)		no
-internet	Feature	Binary		Internet access at home (binary: yes or no)		no
-romantic	Feature	Binary		with a romantic relationship (binary: yes or no)		no
-famrel	Feature	Integer		quality of family relationships (numeric: from 1 - very bad to 5 - excellent)		no
-freetime	Feature	Integer		free time after school (numeric: from 1 - very low to 5 - very high)		no
+|guardian	|Feature	|Categorical	|	student's guardian (nominal: 'mother', 'father' or 'other')	|	no|
+|traveltime	Feature|	Integer	|	home to school travel time (numeric: 1 - <15 min., 2 - 15 to 30 min., 3 - 30 min. to 1 hour, or 4 - >1 hour)		|no|
+|studytime|	Feature	|Integer	|	weekly study time (numeric: 1 - <2 hours, 2 - 2 to 5 hours, 3 - 5 to 10 hours, or 4 - >10 hours)|		no|
+|failures	|Feature|	Integer	|	number of past class failures (numeric: n if 1<=n<3, else 4)		|no|
+|schoolsup	|Feature|	Binary	|	extra educational support (binary: yes or no)		|no|
+|famsup	|Feature	|Binary		|family educational support (binary: yes or no)		|no|
+|paid	|Feature	|Binary		|extra paid classes within the course subject (Math or Portuguese) (binary: yes or no)		|no|
+|activities	|Feature|	Binary	|	extra-curricular activities (binary: yes or no)		|no|
+|nursery	|Feature|	Binary	|	attended nursery school (binary: yes or no)		|no|
+|higher	|Feature	|Binary		|wants to take higher education (binary: yes or no)	|	no|
+|internet|	Feature	|Binary		|Internet access at home (binary: yes or no)		|no|
+|romantic|	Feature	|Binary		|with a romantic relationship (binary: yes or no)	|	no|
+|famrel	|Feature	|Integer	|	quality of family relationships (numeric: from 1 - very bad to 5 - excellent)		|no|
+|freetime|	Feature	|Integer	|	free time after school (numeric: from 1 - very low to 5 - very high)		|no|
+|goout	|Feature	|Integer	|	going out with friends (numeric: from 1 - very low to 5 - very high)		|no|
+|Dalc	|Feature	|Integer	|	workday alcohol consumption (numeric: from 1 - very low to 5 - very high)		|no|
+|Walc	|Feature	|Integer	|	weekend alcohol consumption (numeric: from 1 - very low to 5 - very high)		|no|
+|health	|Feature	|Integer	|	current health status (numeric: from 1 - very bad to 5 - very good)		|no|
+|absences|	Feature	|Integer	|	number of school absences (numeric: from 0 to 93)		|no|
+|G1	Target|	Categorical|		first period grade (numeric: from 0 to 20)		|no|
+|G2	Target|	Categorical	|	second period grade (numeric: from 0 to 20)		|no|
+|G3	Target|	Integer		|final grade (numeric: from 0 to 20, output target)	|	no|
