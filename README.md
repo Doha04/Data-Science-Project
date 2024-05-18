@@ -33,6 +33,6 @@
 |Walc	|Feature	|Integer	|	weekend alcohol consumption (numeric: from 1 - very low to 5 - very high)		|no|
 |health	|Feature	|Integer	|	current health status (numeric: from 1 - very bad to 5 - very good)		|no|
 |absences|	Feature	|Integer	|	number of school absences (numeric: from 0 to 93)		|no|
-|G1	Target|	Categorical|		first period grade (numeric: from 0 to 20)		|no|
-|G2	Target|	Categorical	|	second period grade (numeric: from 0 to 20)		|no|
-|G3	Target|	Integer		|final grade (numeric: from 0 to 20, output target)	|	no|
+|G1	|Target|	Categorical|		first period grade (numeric: from 0 to 20)		|no|
+|G2	|Target|	Categorical	|	second period grade (numeric: from 0 to 20)		|no|
+|G3	|Target|	Integer		|final grade (numeric: from 0 to 20, output target)	|	no|
